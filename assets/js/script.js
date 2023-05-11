@@ -222,7 +222,7 @@ var force = d3.layout.force()
 
       node.append('text')
             .text(function(d){ return d.name; })
-            .attr('font-family', 'Open Sans')
+            .attr('font-family', 'Arial', 'Helvetica', 'sans-serif')
             .attr('fill', function(d, i){
               //console.log(d.value);
                   if ( i > 0 && d.value < 10 ) {
